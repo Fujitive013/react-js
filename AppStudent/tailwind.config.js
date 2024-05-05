@@ -5,9 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {spacing: {
-      '128': '32rem',
-    }},
+    extend: {
+      colors: {
+        'reddit' : '#0b1416',
+        'blackish' : '#0f1c1f'
+      } 
+      
+    },
   },
   plugins: [],
 }
