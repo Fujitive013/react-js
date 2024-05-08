@@ -8,21 +8,39 @@ function Sidebar() {
       <div className="w-full text-white pt-1 mt-7 border-gray-500">
         <ul>
           <li className="py-1 pl-5 border-gray-600 border-b-2">
-            <NavLink to="/admin" activeClassName="text-yellow-500">Admin</NavLink>
+          <NavLink
+              to="/admin"
+              style={({ isActive }) => ({
+                backgroundColor: isActive ? 'white' : 'transparent',
+                color: isActive ? 'black' : 'white',
+              })}
+            >Admin</NavLink>
           </li>
           <li className="py-1 pl-5 border-b-2 border-gray-600">
-            <NavLink to="/dashboard" activeClassName="text-yellow-500">Dashboard</NavLink>
+          <NavLink
+              to="/dashboard"
+              style={({ isActive }) => ({
+                backgroundColor: isActive ? 'white' : 'transparent',
+                color: isActive ? 'black' : 'white',
+              })}
+            >Dashboard</NavLink>
           </li>
           <li className="py-1 pl-5 mb-7 border-b-2 border-gray-600">
-            <NavLink to="/students" activeClassName="text-yellow-500">Students</NavLink>
+          <NavLink
+              to="/students"
+              style={({ isActive }) => ({
+                backgroundColor: isActive ? 'white' : 'transparent',
+                color: isActive ? 'black' : 'white',
+              })}
+            >Students</NavLink>
           </li>
         </ul>
       </div>
       <div className="w-full text-white pt-1 border-b-2 border-gray-500">
         <ul>
-          <li className="py-1 pl-5"><NavLink to="/help" activeClassName="text-yellow-500">Help</NavLink></li>
-          <li className="py-1 pl-5"><NavLink to="/about" activeClassName="text-yellow-500">About Us</NavLink></li>
-          <li className="py-1 pl-5 mb-7"><NavLink to="/contact" activeClassName="text-yellow-500">Contact Us</NavLink></li>
+          <li className="py-1 pl-5"><NavLink to="/help">Help</NavLink></li>
+          <li className="py-1 pl-5"><NavLink to="/about">About Us</NavLink></li>
+          <li className="py-1 pl-5 mb-7"><NavLink to="/contact">Contact Us</NavLink></li>
         </ul>
       </div>
     </div>
