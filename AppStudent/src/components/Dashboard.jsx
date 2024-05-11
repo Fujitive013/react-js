@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class Dashboard extends Component {
   render() {
     return (
-<main className='w-full'>
+  <main className='w-full'>
             <div className="flex m-2 ml-2 mt-10 bg-white rounded-lg shadow-lg w-11/12 h-96 overflow-auto">
             <div className="items-center w-11/12">
               <table className="w-full m-7 ml-14 mr-14 table-auto" id="userTable">

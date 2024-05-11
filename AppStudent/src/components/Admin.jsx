@@ -69,6 +69,26 @@ class Admin extends Component {
                     <th className=" p-1 border border-black">Role</th>
                     <th className=" p-1 border border-black">Actions</th>
                   </tr>
+                  <tr>
+                    <td className="p-1 text-center border border-black userID">2022****20</td>
+                    <td className="p-1 border border-black user-Name">Axel Llagas Paredes</td>
+                    <td className="p-1 border border-black user-Email">paredes.axel456@gmail.com</td>
+                    <td className="p-1 border border-black user-Role">Student</td>
+                    <td className="p-1 border border-black user-Role"></td>
+                  </tr>
+                  <tr>
+                    <td className="p-1 text-center border border-black userID">2004****50</td>
+                    <td className="p-1 border border-black user-Name">John Titor</td>
+                    <td className="p-1 border border-black user-Email">titor.john@gmail.com</td>
+                    <td className="p-1 border border-black user-Role">Admin</td>
+                    <td className="p-1 border border-black user-Role"></td>
+                  </tr>                  <tr>
+                    <td className="p-1 text-center border border-black userID">2002****07</td>
+                    <td className="p-1 border border-black user-Name">John Legend</td>
+                    <td className="p-1 border border-black user-Email">legendary.John@gmail.com</td>
+                    <td className="p-1 border border-black user-Role">Instructor</td>
+                    <td className="p-1 border border-black user-Role"></td>
+                  </tr>
                 </tbody>
               </table>
             </div>

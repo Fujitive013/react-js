@@ -9,7 +9,7 @@ class Students extends Component {
             <label className="text-xl font-bold">Welcome, Axel Paredes!!!</label>
             <br />
             <p className="pt-3">
-              Welcome to the Dashboard! This is the main content area where you can display various
+              Welcome to the Students Dashboard! This is the main content area where you can display various
               information and charts
             </p>
           </div>
